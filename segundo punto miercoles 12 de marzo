@@ -1,0 +1,22 @@
+
+Diseñe un arreglo en el que se ingrese la cantidad de productos y sus respectivos precios, para la preparación de un plato, también se debe mostrar al final el costo a gastar.
+
+Algoritmo precioPlatos
+​definir prec Como Entero
+​Escribir "Ingrese la cantidad de productos:"
+​​Leer num
+​​Dimension prec[100]
+​​
+​​​Para i = 1 Hasta num Hacer
+​​​​Escribir "Ingrese el precio del producto ", i, ":"
+​​​​Leer prec[i]
+​​​​Si prec[i] >= 0 Entonces
+​​​​​total <- total + prec[i]
+​​​​Sino
+​​​​​Escribir "Error: El precio no puede ser negativo. Se considerará 0 para el producto ", i, "."
+​​​​​total <- total + 0
+​​​​FinSi
+​​​FinPara
+​​​
+​​​Escribir "El costo total a gastar es: ", total
+​​FinAlgoritmo
