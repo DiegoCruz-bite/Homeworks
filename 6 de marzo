@@ -1,0 +1,11 @@
+primero 
+
+Algoritmo sin_titulo
+	definir num como real 
+	escribir "ingrese el numero"
+	leer num
+	si num >= 9 entonces escribir "su numero es mayor a 9"
+	FinSi
+	si num < 9 entonces escribir " su nnumero es menor a 9"
+	finsi
+FinAlgoritmo
