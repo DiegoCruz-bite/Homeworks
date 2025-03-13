@@ -1,0 +1,17 @@
+Crear un arreglo con n numeros, ingresados por teclado y mostrar sus valores elevados al cuadrado.
+
+
+Algoritmo ejercicio1
+	definir num2, num,i Como Entero
+	dimension numero[100]
+	escribir "ingrese los numeros que quiere elevar"
+	leer num
+	para i<- 1 hasta num hacer escribir "ingrese el numero ", i ":"
+		leer numero[i]
+	FinPara
+	escribir "los numeros elevados a el cuadrado son: "
+	para i <- 1 hasta num hacer 
+	escribir numero[i] ": resultado a el cuadrado " i   * numero[1] ^ 2
+	FinPara
+FinAlgoritmo
+
