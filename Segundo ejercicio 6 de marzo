@@ -1,0 +1,28 @@
+
+
+Determinar si un alumno aprueba o reprueba un curso, sabiendo que aprobará si su promedio de tres calificaciones es mayor o igual a 4.0; reprueba en caso contrario. Deberá permitir ingresar las tres calificaciones y luego calcular su promedio.
+
+Algoritmo sin_titulo
+	DEFINIR NOTA1, NOTA2, NOTA3 Como Entero
+	DEFINIR NOTAF Como Real
+	DEFINIR NOMBRE Como Caracter
+	ESCRIBIR "BIENVENIDO"
+	ESCRIBIR "INGRESE SU NOMBRE"
+	LEER NOMBRE 
+	ESCRIBIR "INGRESE LA NOTA 1 ALUMNO " + NOMBRE 
+	LEER NOTA1
+	ESCRIBIR "INGRESE LA NOTA 2 ALUMNO " + NOMBRE 
+	LEER NOTA2
+	ESCRIBIR "INGRESE LA NOTA 3 ALUMNO " + NOMBRE 
+	LEER NOTA3
+	
+	NOTAF=NOTA1+NOTA2+NOTA3/3
+	SI NOTAF<3
+		ESCRIBIR "USTED NO AH CONSEGUIDO PASAR LA MATERIA LO SIENTO"
+		SINO ESCRIBIR "USTED AH APROBADO LA MATERIA CON UNA NOTA DE "  NOTAF
+	FinSi
+	
+	
+	
+	
+FinAlgoritmo
