@@ -1,0 +1,19 @@
+Crear un programa que permita ingresar un nombre y una cantidad numérica para que así después el programa escriba este nombre tantas veces como su cantidad ingresada. Utilizar la función MIENTRAS.
+
+Algoritmo sin_titulo
+	DEFINIR NOMBRE Como Caracter
+	DEFINIR REPETIDOR Como ENTERO
+	DEFINIR I, N COMO ENTERO 
+	escribir "BIENVENIDO"
+	
+	ESCRIBIR "INGRESE SU NOMBRE"
+	LEER NOMBRE 
+	ESCRIBIR "INGRESE EL NUMERO DE VECES QUE QUIERE REPETIR"
+	LEER REPETIDOR
+	
+	i := 1
+	MIENTRAS  i <= REPETIDOR hacer
+		escribir NOMBRE 
+		i := i + 1
+	finmientras
+FinAlgoritmo
