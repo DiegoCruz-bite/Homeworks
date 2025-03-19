@@ -1,0 +1,12 @@
+Algoritmo secuencia
+	definir sum, num, n como entero 
+	
+	escribir "ingrese la cantidad de numeros"
+	leer n
+	para i <- 1 hasta n hacer 
+		escribir " ingrese el numero " i
+		leer num
+	    sum <- sum + num 
+	FinPara
+	escribir "el resultado de la suma fue " sum
+FinAlgoritmo
