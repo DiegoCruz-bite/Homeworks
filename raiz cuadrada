@@ -1,0 +1,29 @@
+Algoritmo raizCuadrada
+	
+	Definir num, ra , residuo, pa, x Como Entero
+	Dimension pares[3]
+	
+	Escribir "Ingrese un número de 5 dígitos:"
+	Leer n
+	
+	Para i <- 3 Hasta 1 Con Paso -1 Hacer
+		pares[i] <- n MOD 100
+		n <- Trunc(n / 100)
+	FinPara
+	
+	ra<- 0
+	residuo <- 0
+	
+	Para i <- 1 Hasta 3 Hacer
+		residuo <- residuo * 100 + pares[i]
+		x <- 0
+		Mientras ((20 * ra + x) * x) <= residuo Hacer
+			x <- x + 1
+		FinMientras
+		x <- x - 1
+		residuo <- residuo - ((20 * ra + x) * x)
+		ra <- ra * 10 + x
+	FinPara
+	
+	Escribir "Raíz = ", ra, " Residuo = ", residuo
+FinAlgoritmo
