@@ -1,0 +1,23 @@
+Algoritmo sin_titulo
+	definir nllantas Como Entero
+	Escribir "Digite el nombre"
+	leer nombre 
+	escribir "¿cuanras llantas quiere comprar?"
+	leer nllantas 
+	
+	costo_llanta1 = 250
+	costo_llanta2 = 220
+	
+	si nllantas < 12 Entonces
+		precio_total = nllantas * costo_llanta1
+		promedio = precio_total * 0.20
+		Escribir "su descuento es de el 20% pagaria nada mas: "  promedio " soles"
+	FinSi
+	si nllantas >12 Entonces
+		precio_total = nllantas * costo_llanta2
+		promedio = precio_total * 0.25
+		escribir " a usted se le aplicaria un 25% y el calor de las llantas que compro seria: " promedio " soles"
+		
+	FinSi
+
+FinAlgoritmo
