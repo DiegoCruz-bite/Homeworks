@@ -1,0 +1,25 @@
+Algoritmo sin_titulo
+	definir costo, des_martes,des_sabado,des_domingo Como real
+	definir Tmar, Tsabado, Tdomingo Como real
+	
+	escribir "¿cual es el precio de la moto?"
+	leer costo
+	
+	des_martes = 0.12 
+	des_sabado = 0.18
+	des_domingo = 0.25
+	
+	Tmar <- costo - (costo * des_martes)
+	
+	Tsabado <- costo - (costo * des_sabado)
+	
+	Tdomingo <- costo - (costo * des_domingo)
+	
+	Escribir "========================================= MENU ==============================================="
+	
+	escribir "!El martes usted tiene un descuento de 12% y la moto le quedaria en el precio de: " Tmar "!"
+	escribir "!El sabado usted tiene un descuento de 18% y la moto le quedaria en el precio de: " Tsabado "!"
+	escribir "!El domingo usted tiene un descuento de 25% y la moto le quedaria enel precio de: " Tdomingo "!"
+	
+	Escribir "=============================================================================================="
+FinAlgoritmo
