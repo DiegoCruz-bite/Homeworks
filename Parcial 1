@@ -1,0 +1,22 @@
+Algoritmo sin_titulo
+	escribir "================MENU================="
+	escribir "opcion 1"
+	escribir "opcion 2"
+	escribir "opcion 3"
+	escribir "salir"
+	escribir "ingrese la opcion: "
+	Escribir "====================================="
+	leer opcelegida 
+	
+	segun opcelegida hacer 
+			caso 1:
+				escribir " usted eligio la opcion 1"
+			caso 2:
+				escribir " usted eligio la opcion 2"
+			caso 3:
+				escribir " usted eligio la opcion 3"
+			caso 4:
+				escribir " hasta luego nos vemos pronto....."
+		FinSegun
+FinAlgoritmo
+ 
