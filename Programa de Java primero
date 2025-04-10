@@ -1,0 +1,31 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) 
+	{
+		Scanner dc = new Scanner (System.in);
+		int sum, res, mul, div;
+		 int n1, n2; 
+		 
+		 System.out.println("BIENVENIDO QUERIDO USUARIO");
+		 
+		 System.out.print("ingrese el valor #1: ");
+			n1=dc.nextInt();
+			System.out.print("ingrese el valor #2: ");
+			n2=dc.nextInt();
+			
+			sum=n1+n2;
+			System.out.println("la suma de los valores seria: "+sum);
+			System.out.print("");
+			res=n1-n2;
+			System.out.println("la resta de los valores seria: "+res);
+			System.out.print("");
+			mul=n1*n2;
+			System.out.println("la multiplicacion de los valores seria: "+mul);
+			System.out.print("");
+			div=n1/n2;
+			System.out.println("la division de los valores seria: "+div);
+			
+			
+	}
+}	
