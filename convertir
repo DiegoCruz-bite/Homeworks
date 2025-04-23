@@ -1,0 +1,9 @@
+x = 1    #int 
+y = 2.8  #float
+z = 1j   #complex
+#convertir a float 
+a=float(x)
+#convertir de float a int 
+b=int(y)
+#convertir de in a complex 
+c=complex(z)
