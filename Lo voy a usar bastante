@@ -1,0 +1,7 @@
+x= abs (-6.4)
+print (x)
+#para devolver el valor o a positivo 
+
+#funcion pow (x, y) devuelve el valor de x a la potencia
+x=pow(7, 9)
+print(x)
