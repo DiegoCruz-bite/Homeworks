@@ -1,0 +1,4 @@
+x= min(20,30,40)
+y= max(30,90,60)
+print (x)
+print(y)
