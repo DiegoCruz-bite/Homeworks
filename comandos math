@@ -1,0 +1,18 @@
+import math 
+x= math.sqrt(78)
+print (x)
+# hace la raiz cuadrada 
+
+#para redondear los numeros decimales 
+import math 
+#para redondear hacia arriba 
+x= math.ceil(7.5)
+#para redondear hacia abajo 
+y=math.floor(2.6)
+print(x)
+print(y)
+
+#para sacar el numero pi
+import math 
+x=math.pi
+print(x)
