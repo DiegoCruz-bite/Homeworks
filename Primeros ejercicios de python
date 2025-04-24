@@ -1,0 +1,19 @@
+x=2+(3*(6/2))
+print (x)
+
+y= (4+6)/(2+3)
+print (y)
+
+import math
+z= (4/2)**5
+print (z)
+
+import math 
+e=(4/2)**6
+print (e)
+
+u=(-3)**2
+print(u)
+
+p= -(3**2)
+print (p)
