@@ -1,0 +1,6 @@
+#operadores de pertenencia en python 
+x= ["manzana", "limon"]
+print ("manzana" in x)
+
+x= ["manzana", "limon"]
+print ("pera" not in x)
