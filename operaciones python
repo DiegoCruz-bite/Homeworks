@@ -1,0 +1,12 @@
+print("por favor ingrese el primer numero")
+num1= float (input())
+print("por favor ingrese el segundo numero")
+num2= float (input())
+res=num1+num2
+print("El resultado de", num1, "+", num2, "=", res ) 
+res=num1-num2
+print("El resultado de", num1, "-", num2, "=", res ) 
+res=num1*num2
+print("El resultado de", num1, "*", num2, "=", res ) 
+res=num1/num2
+print("El resultado de", num1, "/", num2, "=", res ) 
