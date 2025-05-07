@@ -1,0 +1,5 @@
+import math 
+print ("digite el numero al que le quiere calcular su raiz cuadrada ")
+num=float (input())
+raizC=math.sqrt(num)
+print("la raiz cuadrada de", num, "=",raizC)
