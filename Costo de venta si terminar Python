@@ -1,0 +1,12 @@
+print ("Ingrese el precio de venta de el articulo")
+art= float (input())
+print("¿cual es el nombre de el producto?")
+producto=input()
+print("Ahora ingrese el costo de produccion")
+cosP= float(input())
+utilidad = 120% = 1.20
+impuesto = 15% = 0.15
+precio_venta = cosP * (1 + utilidad) * (1 + impuesto)
+print ("precio_venta")
+
+
