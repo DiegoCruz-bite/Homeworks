@@ -1,0 +1,31 @@
+def clasificar_numeros(lista, k):
+    menores = [] 
+    mayores = [] 
+    iguales = [] 
+    multiplos = [] 
+
+    for numero in lista:
+        if numero < k:
+            menores.append(numero)
+        elif numero > k:
+            mayores.append(numero)
+        else:
+            iguales.append(numero)
+        
+       
+        if numero % k == 0:
+            multiplos.append(numero)
+    
+    return menores, mayores, iguales, multiplos
+
+numeros = [10, 5, 8, 2, 15, 20, 5, 25]
+k = 5
+
+
+m, M, i, mult = clasificar_numeros(numeros, k)
+
+
+print("Menores que k:", m)
+print("Mayores que k:", M)
+print("Iguales a k:", i)
+print("Múltiplos de k:", mult)
