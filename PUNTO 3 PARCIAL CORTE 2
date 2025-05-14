@@ -1,0 +1,13 @@
+def producto_escalar(v1, v2):
+    resultado = 0 
+    
+  
+    for i in range(len(v1)):
+        resultado += v1[i] * v2[i] 
+    
+    return resultado  
+
+vector1 = [3, 8, 7]
+vector2 = [2, 9, 6]
+
+print("Producto escalar:", producto_escalar(vector1, vector2))  
