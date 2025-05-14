@@ -1,0 +1,15 @@
+# PUNTO 1, 2 DE EL PARCIAL DE CORTE 2 
+carta1 = ("A", "♠")  
+carta2 = ("10", "♦") 
+
+print("Carta 1:", carta1)
+print("Carta 2:", carta2)
+
+# Función para verificar si hay 4 cartas iguales en una mano
+def poker(cartas):
+    valores = [carta[0] for carta in cartas] 
+    return valores.count(valores[0]) == 4  
+
+
+mano = [("4", "♠"), ("5", "♣"), ("4", "♥"), ("4", "♦"), ("4", "♠")]
+print("¿Es póker?", poker(mano)) 
