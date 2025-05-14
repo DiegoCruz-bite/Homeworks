@@ -1,0 +1,7 @@
+def son_paralelos(v1, v2):
+    return (v1[0] / v2[0] == v1[1] / v2[1] == v1[2] / v2[2])
+
+vector1 = [2, 4, 6]
+vector2 = [1, 2, 3]
+
+print("¿Son paralelos?", son_paralelos(vector1, vector2))  
