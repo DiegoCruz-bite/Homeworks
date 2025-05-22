@@ -1,0 +1,10 @@
+contra = "Sueño"
+
+print("¿ingrese la contraseña para ingresar a el sistema?")
+
+user_contra = input()
+
+if user_contra == contra:  
+    print("Ingresando al sistema...") 
+else:  
+    print("Contraseña incorrecta, inténtelo de nuevo")  
