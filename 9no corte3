@@ -1,0 +1,9 @@
+
+frase = input("Introduce una frase: ")
+vocal = input("Introduce una vocal: ").lower()  # Convertimos la vocal a minúscula para evitar errores
+
+if vocal in "aeiou":
+    frase_modificada = frase.replace(vocal, vocal.upper())  # Reemplazar la vocal por su versión en mayúscula
+    print("Frase modificada:", frase_modificada)
+else:
+    print("Debes introducir una vocal válida (a, e, i, o, u).")
