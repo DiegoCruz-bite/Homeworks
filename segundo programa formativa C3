@@ -1,0 +1,11 @@
+num1 = float(input("ingrese el primer numero: "))
+
+num2 = float(input("ingrese el segundo numero: "))
+
+res=num1/num2
+print(res)
+
+if res == 0:
+    print("ERROR cerrando el programa...")
+else: 
+  print("Continuando...")
