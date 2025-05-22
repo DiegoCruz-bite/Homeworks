@@ -1,0 +1,9 @@
+
+nombre = input("Introduce tu nombre: ").capitalize()
+sexo = input("Introduce tu sexo (M/F): ").upper()
+
+
+if (sexo == "F" and nombre < "M") or (sexo == "M" and nombre > "N"):
+    print("Perteneces al grupo A.")
+else:
+    print("Perteneces al grupo B.")
