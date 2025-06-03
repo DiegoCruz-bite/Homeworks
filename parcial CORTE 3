@@ -1,0 +1,24 @@
+saldo = 1200000 
+
+while True:
+    print("\n1. Consultar saldo\n2. Depositar\n3. Retirar\n4. Salir")
+    opcion = input("Seleccione una opción: ")
+
+    if opcion == "1":
+        print(f"Saldo actual: ${saldo}")
+    elif opcion == "2":
+        cantidad = float(input("Ingrese el monto a depositar: "))
+        saldo += cantidad
+        print(f"Depósito exitoso. Nuevo saldo: ${saldo}")
+    elif opcion == "3":
+        cantidad = float(input("Ingrese el monto a retirar: "))
+        if cantidad <= saldo:
+            saldo -= cantidad
+            print(f"Retiro exitoso. Nuevo saldo: ${saldo}")
+        else:
+            print("Fondos insuficientes.")
+    elif opcion == "4":
+        print("Gracias por usar el cajero automático.")
+        break
+    else:
+        print("Opción inválida, intente nuevamente.")
